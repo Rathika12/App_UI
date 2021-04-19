@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Number of persons</title>
 </head>
 <body>
-<form>
+<form action="choose.html">
 <center>
 <h1> CHOOSE CAB TYPE </h1>
 <select name="CAB TYPES"> 
@@ -15,7 +15,16 @@
 </select>
 <br  />
 <br  />
-<input type="number" name="number of person" placeholder="enter number of person" required>
+ <label for="count">Enter Total number of person</label>
+<input type="number" name="number of person" placeholder="above 10 and below 60" required>
+<br>
+<br>
+ <label for="count">Enter Number of senior citizen</label>
+<input type="number" name="senior" placeholder="above 60" required>
+<br>
+<br>
+ <label for="count">Enter Number of children</label>
+<input type="number" name="child" placeholder="below 10" required>
 <br>
 <br>
 <button>SUBMIT</button>
